@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c6414b1-c9fb-4eec-a560-568c287d963c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>dmicher_python_app.py</StartupFile>
+    <StartupFile>main_menu.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>dmicher_python_app</Name>
     <RootNamespace>dmicher_python_app</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,26 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dmicher_python_app.py" />
+    <Compile Include="lesson1\menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson1\task6.py" />
+    <Compile Include="lesson1\task5.py" />
+    <Compile Include="lesson1\task4.py" />
+    <Compile Include="lesson1\task3.py" />
+    <Compile Include="lesson1\task2.py" />
+    <Compile Include="lesson1\task1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="main_menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tools.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lesson1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
