@@ -1,7 +1,7 @@
 import lesson1.task1 as t1, lesson1.task2 as t2, lesson1.task3 as t3, lesson1.task4 as t4, lesson1.task5 as t5, lesson1.task6 as t6
 
-# показывает меню урока № 1
 def show():
+    """показывает меню урока № 1"""
     while True:
         print("Урок № 1. Знакомство с Python.")
         command = input("Введите номер задания от 1 до 6 (иное - выход): ")
