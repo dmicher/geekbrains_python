@@ -17,6 +17,7 @@
 import tools
 
 def run():
+    """Выполняет задачу 6 домашнего задания к уроку 1"""
     print("\r\nЗадание 6\r\n")
     
     current_distance = input("Введите начальную дистанцию: ").replace(',', '.')

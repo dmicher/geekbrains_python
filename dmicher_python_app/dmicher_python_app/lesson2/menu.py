@@ -1,9 +1,10 @@
-import lesson1.task1 as t1, lesson1.task2 as t2, lesson1.task3 as t3, lesson1.task4 as t4, lesson1.task5 as t5, lesson1.task6 as t6
+import lesson2.task1 as t1, lesson2.task2 as t2, lesson2.task3 as t3, lesson2.task4 as t4
+import lesson2.task5 as t5, lesson2.task6 as t6
 
 def show():
-    """показывает меню урока № 1"""
+    """показывает меню уроку № 2"""
     while True:
-        print("Урок № 1. Знакомство с Python.")
+        print("Урок № 2. Встроенные типы и операции с ними.")
         command = input("Введите номер задания от 1 до 6 (иное - выход): ")
 
         if command.isdigit():
