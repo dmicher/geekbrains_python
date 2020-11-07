@@ -64,3 +64,5 @@ def run():
                     sequence.insert(current_index + 1, value)
                     break
                 direction = 1
+
+    print("Задание выполнено\r\n")
