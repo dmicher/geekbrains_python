@@ -54,6 +54,27 @@
     <Compile Include="lesson2\task6.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson3\menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson3\task6.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_menu.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +85,7 @@
   <ItemGroup>
     <Folder Include="lesson1\" />
     <Folder Include="lesson2\" />
+    <Folder Include="lesson3\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
