@@ -3,5 +3,5 @@
 
 def run():
     """Выполняет задание 3 для урока № 4"""
-    print("\r\nЗадание 3\r\nИскомый массив: ", [item for item in range(20, 240) if item % 20 in (0, 1)])
+    print("\r\nЗадание 3\r\nИскомый массив: ", [item for item in range(20, 240) if item % 20 == 0 or item % 21 == 0])
     print("Задание выполнено\r\n")
