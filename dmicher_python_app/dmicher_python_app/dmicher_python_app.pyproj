@@ -12,6 +12,10 @@
     <Name>dmicher_python_app</Name>
     <RootNamespace>dmicher_python_app</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,6 +79,28 @@
     <Compile Include="lesson3\task6.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson4\menu.py" />
+    <Compile Include="lesson4\task1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson4\task7.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_menu.py">
       <SubType>Code</SubType>
     </Compile>
@@ -86,6 +112,7 @@
     <Folder Include="lesson1\" />
     <Folder Include="lesson2\" />
     <Folder Include="lesson3\" />
+    <Folder Include="lesson4\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

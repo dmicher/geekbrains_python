@@ -1,4 +1,4 @@
-import lesson1.menu as l1, lesson2.menu as l2, lesson3.menu as l3
+import lesson1.menu as l1, lesson2.menu as l2, lesson3.menu as l3, lesson4.menu as l4
 
 def main_menu(show_hello):
     """Выводит главное меню на экран"""
@@ -9,7 +9,8 @@ def main_menu(show_hello):
     print("ОСНОВНОЕ МЕНЮ:")
     print("\t1\t= Урок 1: Знакомство с Python.")
     print("\t2\t= Урок 2: Встроенные типы и операции с ними.")
-    print("\t3\t= Урок 3: Функции")
+    print("\t3\t= Урок 3: Функции.")
+    print("\t4\t= Урок 4: Полезные инструменты.")
     print()
     print("\tв, q\t= выход")
     print("\tа, v\t= о программе")
@@ -27,6 +28,8 @@ while True:
             l2.show()
         elif number == 3:
             l3.show()
+        elif number == 4:
+            l4.show()
         else:
            continue
     elif command in ("в", "q", "й", "d"):
