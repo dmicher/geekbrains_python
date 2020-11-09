@@ -3,5 +3,12 @@
 # Необходимо получить результат вычисления произведения всех элементов списка.
 # Подсказка: использовать функцию reduce().
 
+from functools import reduce
+
 def run():
     """Выполняет задание 5 для урока № 4"""
+    print("\r\nЗадание 5\r\n")
+    numbers = [item for item in range(100, 1001, 2)]
+    print(*numbers, sep=" * ", end=" = ")
+    print(reduce(lambda x, y: x * y, numbers))
+    print("Задание выполнено\r\n")

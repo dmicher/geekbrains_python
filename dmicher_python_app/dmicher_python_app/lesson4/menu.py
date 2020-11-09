@@ -5,7 +5,7 @@ def show():
     """показывает меню уроку № 3"""
     while True:
         print("Урок № 4. Полезные инструменты.")
-        command = input("Введите номер задания от 1 до 6 (иное - выход): ")
+        command = input("Введите номер задания от 1 до 7 (иное - выход): ")
 
         if command.isdigit():
             number = int(command)

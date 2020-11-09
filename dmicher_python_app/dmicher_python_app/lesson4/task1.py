@@ -23,6 +23,8 @@ def run():
         else:
             calculate(user_input.split())
 
+    print("Задание выполнено\r\n")
+
 def hints():
     """Выводит подсказку по утилите в консоль"""
     print("\r\nСинтаксис команды: task1 [param1] [prarm2] ...")
