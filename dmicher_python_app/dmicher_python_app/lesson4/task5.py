@@ -10,5 +10,5 @@ def run():
     print("\r\nЗадание 5\r\n")
     numbers = [item for item in range(100, 1001, 2)]
     print(*numbers, sep=" * ", end=" = ")
-    print(reduce(lambda x, y: x * y, numbers))
+    print(reduce(lambda x, y: x * y, numbers, 1))
     print("Задание выполнено\r\n")
