@@ -32,7 +32,7 @@ def run():
               "\r\nПроверьте, что Вы загрузили все файлы проекта.")
         return
 
-    profit_orgs = {}
+    organizations = {}
     
     with open(path) as stream:
         while True:
@@ -59,20 +59,19 @@ def run():
             profit = round(revenue - costs, 2)
             
             if profit > 0:
-                profit_orgs[name] = profit
                 print(name, "работает с прибылью в", str(profit))
-            elif profit == 0:
-                print(name, "работает без прибыли")
-            else:
-                print(name, "работает с убытком в", str(-profit))
 
-    print("Среднее значение прибыли (для прибыльных организаций):", str(round(sum(profit_orgs.values()) / len(profit_orgs), 2)))
+            organizations[name] = profit
 
+    avarage_profit = str(round(sum(organizations.values()) / len(organizations), 2))
+    print("Среднее значение прибыли (для прибыльных организаций):", avarage_profit)
+
+    object_to_write = (organizations, {"avarage_profit": avarage_profit})
     path = os.path.join(tools.get_dir(), "lesson5_task6.json")
 
     try:
         with open(path, 'w', encoding='utf8') as stream:
-            json.dump(profit_orgs, stream, ensure_ascii=False)
+            json.dump(object_to_write, stream, ensure_ascii=False)
     except BaseException as ex:
         print("Провал записи результирующего файла. " + ex)
         return
