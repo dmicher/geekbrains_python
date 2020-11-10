@@ -1,5 +1,5 @@
-import lesson4.task1 as t1, lesson4.task2 as t2, lesson4.task3 as t3, lesson4.task4 as t4
-import lesson4.task5 as t5, lesson4.task6 as t6
+import lesson5.task1 as t1, lesson5.task2 as t2, lesson5.task3 as t3, lesson5.task4 as t4
+import lesson5.task5 as t5, lesson5.task6 as t6
 
 def show():
     """показывает меню уроку № 3"""
