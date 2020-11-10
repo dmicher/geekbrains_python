@@ -12,10 +12,10 @@ def run():
         print("Директория с данными не обнаружена. Проверьте, что Вы загрузили все файлы проекта.")
         return
 
-    path = os.path.join(path, "task2_toread.txt")
+    path = os.path.join(path, "task2_data.txt")
     if not os.path.exists(path) or not os.path.isfile(path):
-        print("Файл с указанным именем не обнаружен, либо не является файлом." + 
-              "Проверьте, что Вы загрузили все файлы проекта.")
+        print("Файл с данным для этого задания не обнаружен.\r\n" + path +
+              "\r\nПроверьте, что Вы загрузили все файлы проекта.")
         return
 
     strings = []

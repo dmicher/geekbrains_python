@@ -127,9 +127,10 @@
     <Folder Include="lesson5\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data_dir\lesson5_data\task2_toread.txt" />
+    <Content Include="data_dir\lesson5_data\task2_data.txt" />
     <Content Include="data_dir\lesson5_data\task3a_data.txt" />
     <Content Include="data_dir\lesson5_data\task3b_data.txt" />
+    <Content Include="data_dir\lesson5_data\task5_data.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

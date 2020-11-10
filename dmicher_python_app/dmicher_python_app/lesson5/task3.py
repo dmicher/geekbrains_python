@@ -79,16 +79,7 @@ def run():
         return
 
     print("Новый файл с переводом опубликован по следующему пути\r\n" + out_file)
-    user_input = input("\r\nПрочесть файл? (да = y, д, пустой ввод) (нет = иное)").lower().strip()
-
-    if user_input in ('y', 'д', ''):
-        try:
-            print("---содержимое файла---")
-            with open(out_file) as stream:
-                print(stream.read())
-            print("------конец файла-----")
-        except:
-            print("Ошибка чтения файла")
+    tools.ask_to_read_file(out_file)
 
     print("Задение выполнено\r\n")
 

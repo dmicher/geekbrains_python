@@ -24,15 +24,7 @@ def run():
         print("Ошибка записи в файл")
         return
 
-    user_input = input("Запись в файл успешна. Прочесть файл? (да = y, д, пустой ввод) (нет = иное)").lower().strip()
-
-    if user_input in ('y', 'д', ''):
-        try:
-            print("---содержимое файла---")
-            with open(file_path) as stream:
-                print(stream.read())
-            print("------конец файла-----")
-        except:
-            print("Ошибка чтения файла")
+    print("Запись в файл успешна.", end=" ")
+    tools.ask_to_read_file(file_path)
 
     print("Задение выполнено\r\n")

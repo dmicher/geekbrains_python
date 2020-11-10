@@ -58,3 +58,19 @@ def enshure_dir_exist(path: str):
             return True
         except:
             return False
+
+def ask_to_read_file(path: str):
+    """Спрашивает пользователя, нужно ли читать файл, указанный в параметре и,
+    если нужно, выводит содержимое в консоль.
+    :param path: путь к файлу (не проверяет его существование)
+    :return: ничего не возвращает"""
+    
+    user_input = input("\r\nПрочесть файл? (да = y, д, пустой ввод) (нет = иное)").lower().strip()
+    if user_input in ('y', 'д', ''):
+        try:
+            print("---содержимое файла---")
+            with open(path) as stream:
+                print(stream.read())
+            print("------конец файла-----")
+        except BaseException as ex:
+            print("Ошибка чтения файла", ex)
