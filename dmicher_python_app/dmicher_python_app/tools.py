@@ -59,18 +59,23 @@ def enshure_dir_exist(path: str):
         except:
             return False
 
-def ask_to_read_file(path: str):
+def ask_to_read_file(path: str, forced_UTF8: bool=False):
     """Спрашивает пользователя, нужно ли читать файл, указанный в параметре и,
     если нужно, выводит содержимое в консоль.
     :param path: путь к файлу (не проверяет его существование)
+    :param forced_UTF8: прочитать принудительно в кодировке UTF-8
     :return: ничего не возвращает"""
     
     user_input = input("\r\nПрочесть файл? (да = y, д, пустой ввод) (нет = иное)").lower().strip()
     if user_input in ('y', 'д', ''):
         try:
             print("---содержимое файла---")
-            with open(path) as stream:
-                print(stream.read())
+            if forced_UTF8:
+                with open(path, encoding='utf8') as stream:
+                    print(stream.read())
+            else:
+                with open(path) as stream:
+                    print(stream.read())
             print("------конец файла-----")
         except BaseException as ex:
             print("Ошибка чтения файла", ex)

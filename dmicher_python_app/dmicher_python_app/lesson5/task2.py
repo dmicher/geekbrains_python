@@ -5,7 +5,7 @@ import tools, os, re
 
 def run():
     """Выполняет задание 2 урока 6"""
-    print("\r\nЗадание 6\r\n")
+    print("\r\nЗадание 2\r\n")
     
     path = tools.get_dir("lesson5_data")
     if path is None:
