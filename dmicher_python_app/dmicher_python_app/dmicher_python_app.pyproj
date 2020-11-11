@@ -120,10 +120,12 @@
     <Compile Include="lesson6\Road.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson6\Stationeries.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson6\task1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lesson6\task6.py" />
     <Compile Include="lesson6\task5.py" />
     <Compile Include="lesson6\task4.py" />
     <Compile Include="lesson6\task3.py" />
