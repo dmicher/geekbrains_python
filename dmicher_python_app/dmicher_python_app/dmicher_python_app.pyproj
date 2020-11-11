@@ -111,6 +111,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lesson6\menu.py" />
+    <Compile Include="lesson6\Position.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson6\Road.py">
       <SubType>Code</SubType>
     </Compile>
@@ -128,6 +131,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lesson6\TrafficLightColor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson6\Worker.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main_menu.py">
