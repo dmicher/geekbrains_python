@@ -1,7 +1,7 @@
 import time
 
 class TrafficLightColor:
-    """Цвет сфетофора"""
+    """Цвет сфетофора для задания № 1"""
     __color_name__: str
     __exposition_time__: float
     __time_start__: float

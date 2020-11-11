@@ -3,7 +3,7 @@ from tools import DmicherException
 from itertools import cycle
 
 class TrafficLight():
-    """Светофор"""
+    """Светофор для задания № 1"""
     __colors__= {"красный": 7.0, "жёлтый": 2.0, "зелёный": 14.0}
     __color__ = None
     __colors_generator__ = None
