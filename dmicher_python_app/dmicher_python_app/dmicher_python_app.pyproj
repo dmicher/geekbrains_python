@@ -110,6 +110,23 @@
     <Compile Include="lesson5\task1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson6\menu.py" />
+    <Compile Include="lesson6\task1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson6\task6.py" />
+    <Compile Include="lesson6\task5.py" />
+    <Compile Include="lesson6\task4.py" />
+    <Compile Include="lesson6\task3.py" />
+    <Compile Include="lesson6\task2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson6\TrafficLight.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson6\TrafficLightColor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_menu.py">
       <SubType>Code</SubType>
     </Compile>
@@ -125,6 +142,7 @@
     <Folder Include="lesson3\" />
     <Folder Include="lesson4\" />
     <Folder Include="lesson5\" />
+    <Folder Include="lesson6\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data_dir\lesson5_data\task2_data.txt" />

@@ -1,4 +1,5 @@
 import lesson1.menu as l1, lesson2.menu as l2, lesson3.menu as l3, lesson4.menu as l4, lesson5.menu as l5
+import lesson6.menu as l6
 
 def main_menu(show_hello):
     """Выводит главное меню на экран"""
@@ -12,6 +13,7 @@ def main_menu(show_hello):
     print("\t3\t= Урок 3: Функции.")
     print("\t4\t= Урок 4: Полезные инструменты.")
     print("\t5\t= Урок 5: Работа с файлами.")
+    print("\t6\t= Урок № 6. Объектно-ориентированное программирование..")
     print()
     print("\tв, q\t= выход")
     print("\tа, v\t= о программе")
@@ -33,6 +35,8 @@ while True:
             l4.show()
         elif number == 5:
             l5.show()
+        elif number == 6:
+            l6.show()
         else:
            continue
     elif command in ("в", "q", "й", "d"):

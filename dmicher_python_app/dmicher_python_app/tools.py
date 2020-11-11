@@ -79,3 +79,8 @@ def ask_to_read_file(path: str, forced_UTF8: bool=False):
             print("------конец файла-----")
         except BaseException as ex:
             print("Ошибка чтения файла", ex)
+
+class DmicherException(Exception):
+    """Исключения, пораждаемые в этом проекте"""
+    def __init__(self, text):
+        self.txt = text
