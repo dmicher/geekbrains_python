@@ -144,6 +144,9 @@
     <Compile Include="lesson6\Worker.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson7\Cell.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson7\Matrix.py">
       <SubType>Code</SubType>
     </Compile>
