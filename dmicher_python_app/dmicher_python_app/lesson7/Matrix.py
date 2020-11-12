@@ -22,9 +22,9 @@ class Matrix():
         string = "Матрица размерами: " + str(self._rows_count) + "/" + str(self._columns_count)
 
         for row in self._content:
-            string += "\r\n"
+            string += "\r\n\t"
             for cell in row:
-                string += str(cell) + " "
+                string += str(cell) + "\t"
 
         return string
 

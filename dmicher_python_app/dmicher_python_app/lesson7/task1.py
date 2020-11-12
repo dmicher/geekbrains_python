@@ -21,6 +21,6 @@ def run():
     print("Матрица 1:", matrix1)
     print("Матрица 2:", matrix2)
     print("Матрица 3:", matrix3)
-    print("Результат операции: m1 + m2 * 2 - m3:\r\n", matrix1 + matrix2 * 2 - matrix3)
+    print("Результат операции: m1 + m2 * 2 - m3:", matrix1 + matrix2 * 2 - matrix3, sep="\r\n")
 
     print("Задание выполнено\r\n")
