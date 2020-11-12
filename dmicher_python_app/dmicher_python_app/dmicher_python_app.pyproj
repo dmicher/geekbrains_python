@@ -153,6 +153,9 @@
     <Compile Include="lesson7\task1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson7\clothes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="main_menu.py">
       <SubType>Code</SubType>
     </Compile>
