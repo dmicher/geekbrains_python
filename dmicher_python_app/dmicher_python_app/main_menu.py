@@ -1,5 +1,5 @@
 import lesson1.menu as l1, lesson2.menu as l2, lesson3.menu as l3, lesson4.menu as l4, lesson5.menu as l5
-import lesson6.menu as l6, lesson7.menu as l7
+import lesson6.menu as l6, lesson7.menu as l7, lesson8.menu as l8
 
 def main_menu(show_hello):
     """Выводит главное меню на экран"""
@@ -15,6 +15,7 @@ def main_menu(show_hello):
     print("\t5\t= Урок 5: Работа с файлами.")
     print("\t6\t= Урок № 6. Объектно-ориентированное программирование.")
     print("\t7\t= Урок № 7. ООП. Продвинутый уровень.")
+    print("\t8\t= Урок № 8. ООП. Полезные дополнения.")
     print()
     print("\tв, q\t= выход")
     print("\tа, v\t= о программе")
@@ -39,6 +40,8 @@ while True:
         elif number == 6:
             l6.show()
         elif number == 7:
+            l7.show()
+        elif number == 8:
             l7.show()
         else:
            continue
