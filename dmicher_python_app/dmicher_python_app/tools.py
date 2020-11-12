@@ -81,6 +81,8 @@ def ask_to_read_file(path: str, forced_UTF8: bool=False):
             print("Ошибка чтения файла", ex)
 
 class DmicherException(Exception):
-    """Исключения, пораждаемые в этом проекте"""
-    def __init__(self, text):
+    """Исключения, пораждаемые в этом проекте
+    :params text: сообщение, поясняющее ошибку
+    :params level: уровень ошибки - чем ближе к нулю, тем критичнее"""
+    def __init__(self, text: str):
         self.txt = text
