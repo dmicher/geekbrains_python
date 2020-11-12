@@ -3,9 +3,18 @@
 # нуля в качестве делителя программа должна корректно обработать эту ситуацию и 
 # не завершиться с ошибкой.
 
+from lesson8.single_classes.DivByZeroHandler import ZeroDivisionHandler as handler
+
 def run():
     """Выполняет задание № 2 к уроку 8"""
     print("\r\nЗадание 2\r\n")
 
+    divide()
 
-    print("Задание выполнено")
+    print("Задание выполнено\r\n")
+
+@handler.handle_decorator
+def divide():
+    """Некоторая функция, в которой "совершенно случайно" может 
+    возникать деление на ноль"""
+    a = 1 / 0
