@@ -161,6 +161,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lesson8\menu.py" />
+    <Compile Include="lesson8\single_classes\Date.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson8\task7.py" />
     <Compile Include="lesson8\task4_6.py" />
     <Compile Include="lesson8\task3.py" />
@@ -186,6 +189,7 @@
     <Folder Include="lesson6\" />
     <Folder Include="lesson7\" />
     <Folder Include="lesson8\" />
+    <Folder Include="lesson8\single_classes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data_dir\lesson5_data\task2_data.txt" />

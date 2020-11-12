@@ -93,4 +93,13 @@ class DmicherException(Exception):
     :params text: сообщение, поясняющее ошибку
     :params level: уровень ошибки - чем ближе к нулю, тем критичнее"""
     def __init__(self, text: str):
+        """Объект инициализируется сообщением"""
         self.txt = text
+
+    def __str__(self):
+        """Строковое представление этой ошибки"""
+        return "Ошибка проекта: " + self.txt
+
+    def __repr__(self):
+        """Представление во вложенных типах"""
+        return self.__str__()

@@ -42,7 +42,7 @@ while True:
         elif number == 7:
             l7.show()
         elif number == 8:
-            l7.show()
+            l8.show()
         else:
            continue
     elif command in ("в", "q", "й", "d"):

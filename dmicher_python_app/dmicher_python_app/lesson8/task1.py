@@ -7,9 +7,21 @@
 #       месяца и года (например, месяц — от 1 до 12). Проверить работу 
 #       полученной структуры на реальных данных.
 
+from lesson8.single_classes.Date import Date
+from tools import DmicherException
+
 def run():
     """Выполняет задание № 1 к уроку 8"""
     print("\r\nЗадание 1\r\n")
 
+    for test_value in ("21-01-2001", '01-01-1970', '31-12-2030', '21-12-2050',
+                       '21-12-1969', 'a-01-2000', '01-b-2000', '01-01-200a',
+                       '21:12:2000'):
+        try:
+            print(f"Пробуем значение {test_value} ->", end=' ')
+            date = Date(test_value)
+            print(f"Успех. Дата распознана, как {date}")
+        except DmicherException as ex:
+            print(ex)
 
-    print("Задание выполнено")
+    print("Задание выполнено\r\n")
