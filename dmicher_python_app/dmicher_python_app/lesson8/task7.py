@@ -3,9 +3,24 @@
 # проекта, создав экземпляры класса (комплексные числа) и выполнив сложение и умножение 
 # созданных экземпляров. Проверьте корректность полученного результата.
 
+from lesson8.single_classes.ComplexNumber import ComplexNumber as Cnum
+
 def run():
     """Выполняет задание № 7 к уроку 8"""
     print("\r\nЗадание 7\r\n")
 
+    a = Cnum(1, -7)
+    print("a =", a)
+
+    b = Cnum(13, 2)
+    print("b =", b)
+
+    print("a + b =", a + b)
+    print("a - b = ", a - b)
+    print("a * b = ", a * b)
+    try:
+        print("a / b = ", a / b)
+    except ZeroDivisionError as ex:
+        print("Расчитать невозможно - потребует деления на 0.")
 
     print("Задание выполнено")

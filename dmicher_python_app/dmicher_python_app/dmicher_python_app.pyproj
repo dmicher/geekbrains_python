@@ -170,6 +170,9 @@
     <Compile Include="lesson8\office_tech_classes\Warehouse.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson8\single_classes\ComplexNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson8\single_classes\Date.py">
       <SubType>Code</SubType>
     </Compile>
