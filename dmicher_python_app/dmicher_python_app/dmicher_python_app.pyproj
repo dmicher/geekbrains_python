@@ -167,6 +167,9 @@
     <Compile Include="lesson8\single_classes\DivByZeroHandler.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="lesson8\single_classes\NotOnlyNumbers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson8\task7.py" />
     <Compile Include="lesson8\task4_6.py" />
     <Compile Include="lesson8\task3.py" />

@@ -15,9 +15,25 @@
 #           текст (не число) и отобразить соответствующее сообщение. При этом работа 
 #           скрипта не должна завершаться.
 
+from lesson8.single_classes.NotOnlyNumbers import OnlyNumbersFactory as Factory
+
 def run():
     """Выполняет задание № 3 к уроку 8"""
     print("\r\nЗадание 3\r\n")
 
+    while True:
+        print("Начало заполнения массива.")
+        task_list = Factory().generate()
+        print("Конец заполнения массива.")
 
-    print("Задание выполнено")
+        print("\r\nВаш массив:")
+        print(task_list)
+
+        user_input = input("Ещё разок? (пустой ввод - да, иное - нет) ")
+
+        if user_input == '':
+            continue
+
+        break
+
+    print("Задание выполнено\r\n")
