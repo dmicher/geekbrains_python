@@ -161,6 +161,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="lesson8\menu.py" />
+    <Compile Include="lesson8\office_tech_classes\OfficeEquipment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson8\office_tech_classes\WarehouseException.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lesson8\office_tech_classes\Warehouse.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="lesson8\single_classes\Date.py">
       <SubType>Code</SubType>
     </Compile>
@@ -195,6 +204,7 @@
     <Folder Include="lesson6\" />
     <Folder Include="lesson7\" />
     <Folder Include="lesson8\" />
+    <Folder Include="lesson8\office_tech_classes\" />
     <Folder Include="lesson8\single_classes\" />
   </ItemGroup>
   <ItemGroup>

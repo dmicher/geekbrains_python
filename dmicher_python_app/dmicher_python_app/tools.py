@@ -35,11 +35,11 @@ class Tools:
         :rtype bool, None
         """
         data_dir = './data_dir'
-        if not enshure_dir_exist(data_dir):
+        if not Tools.enshure_dir_exist(data_dir):
             return None
     
         data_dir = os.path.join(os.path.abspath(data_dir), subdir_name)
-        if enshure_dir_exist(data_dir):
+        if Tools.enshure_dir_exist(data_dir):
             return data_dir
         return None
 
